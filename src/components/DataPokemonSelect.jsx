@@ -3,7 +3,7 @@
 export const DataPokemonSelect = ({data}) => {
     const { Id, name, sprite, types, stats, description } = data;
   return (
-    <div className='card card-style mt-3 p-2 d-flex mx-auto border-info col-pers '>
+    <div className='card card-style mt-3 p-2 d-flex mx-auto border-dark col-pers shadow-lg'>
                        <div className='row g-0'>
                          <div className='col-md-4'>
                            <img src={sprite} alt={sprite} className='card-img-top mts-100 img-fluid max-500' />
