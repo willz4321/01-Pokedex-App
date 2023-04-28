@@ -10,7 +10,6 @@ import { SelectPokemon, DataPokemonSelect, ListPokemon } from './components';
       const { pokemons = [], isLoading, page, count } = useSelector((state) => state.pokemons);
       const [pokemonName, setPokemonName] = useState('');
       const [showCard, setShowCard] = useState(false);
-      const PokedexImageUrl = `../src/assets/pokedex.png`;
 
         useEffect(() => {
         dispatch(getPokemons());
@@ -27,7 +26,7 @@ import { SelectPokemon, DataPokemonSelect, ListPokemon } from './components';
   return (
     <>
       <div className='container my-5'>
-      <img className="mx-auto d-block img-fluid" style={{ maxWidth: '300px' }}src={PokedexImageUrl} alt="pokedex" />
+      <img className="mx-auto d-block img-fluid" style={{ maxWidth: '300px' }} src='../src/assets/pokedex.png' alt="pokedex" />
         <hr />
         
         <div className='row'>
