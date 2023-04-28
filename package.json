@@ -1,7 +1,7 @@
 {
   "name": "01-pokedex-app",
   "private": true,
-  "homepage": "https://willz4321.github.io/01-Pokedex-App",
+  "homepage": "http://willz4321.github.io/01-Pokedex-App",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
-    "sweetalert2": "^11.7.3"
+    "sweetalert2": "^11.4.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
